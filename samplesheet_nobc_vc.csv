@@ -1,2 +1,2 @@
-sample,fastq_1,fastq_2
-sample,https://github.com/christopher-hakkaart/testdata/blob/main/A04.fq.gz,
+group,replicate,barcode,input_file,genome,transcriptome
+A04,1,,https://github.com/christopher-hakkaart/testdata/blob/main/A04.fq.gz,hg19,
