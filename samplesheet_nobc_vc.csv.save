@@ -1,3 +1,0 @@
-group,replicate,barcode,input_file,genome,transcriptome
-A04,1,,/home/ahhakkc1/projects/ghga/dev_nanoseq/workspace/data/testdata/A04.fastq.gz,GATK.GRCh38,
-
