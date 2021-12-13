@@ -1,2 +1,2 @@
 group,replicate,barcode,input_file,genome,transcriptome
-A04,1,,https://github.com/christopher-hakkaart/testdata/blob/main/A04.fastq.gz,https://github.com/christopher-hakkaart/testdata/blob/main/GRCh38_EDIL3.fa,
+A04,1,,https://raw.githubusercontent.com//christopher-hakkaart/testdata/main/A04.fastq.gz,https://raw.githubusercontent.com//christopher-hakkaart/testdata/main/GRCh38_EDIL3.fa,
