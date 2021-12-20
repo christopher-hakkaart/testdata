@@ -1,6 +1,6 @@
 # Creating test data for nanoseq variant calling 
 
-## Gene of interest with SV
+## Random gene of interest with known SV
 EDIL3
 
 chr5:83940554-84384880 (-)
@@ -14,7 +14,7 @@ echo -e "chr5\t83940554\t84384880\tEDIL3\t0\t-\n" >> GRCh38_EDIL3.slop_10kb.bed
 
 
 ## Find reads mapped to EDIl3 + 10kb, convert to fastq, and gzip
-samtools view -b 34x.bam "chr5:83940554-84384880" > EDIL3.bam
+samtools view -b A04.bam "chr5:83940554-84384880" > EDIL3.bam
 
 samtools index EDIL3.bam 
 
@@ -25,6 +25,9 @@ gzip A04.fq
 ## Make new reference genome
 bedtools getfasta -name -fi /mnt/share/data/igenomes/Homo_sapiens/GATK/GRCh38/Sequence/WholeGenomeFasta/Homo_sapiens_assembly38.fasta -bed GRCh38_EDIL3.slop_10kb.bed > GRCh38_EDIL3.fa
 
-Problem with format of reference name, manually changed chromosome name to chr0.
-
 samtools faidx GRCh38_EDIL3.fa
+
+## Notes for future development
+TODO Add second chromosome and reads to use as base for development of variant calling for each chromosome separately.
+
+Errors occur with default chromosome naming from bedtools – temporary solution was to arbitrarily name chromosomes removing characters that were causing problems.
