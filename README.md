@@ -34,4 +34,4 @@ samtools faidx GRCh38_EDIL3.fa
 ## Notes for future development
 TODO Add second chromosome and reads to use as base for development of variant calling for each chromosome separately.
 
-Errors occur with default chromosome naming from bedtools – temporary solution was to arbitrarily name chromosomes removing characters that were causing problems.
+TODO Fix error that occurs with default chromosome naming from bedtools – temporary solutionis to arbitrarily name chromosome removing characters that were causing the problem.
