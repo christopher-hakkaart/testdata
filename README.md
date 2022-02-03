@@ -33,7 +33,7 @@ samtools faidx GRCh38_EDIL3.fa
 
 ## Test bench, truth and high confidence regions
 
-Coppied data in [hap.py](https://github.com/Illumina/hap.py#happy) example.
+Copied data in [hap.py](https://github.com/Illumina/hap.py#happy) example.
  
 - NA12878_chr21.vcf.gz
 - NA12878_chr21.vcf.gz.tbi
