@@ -35,12 +35,12 @@ samtools faidx GRCh38_EDIL3.fa
 
 Coppied data in [hap.py](https://github.com/Illumina/hap.py#happy) example.
  
-> NA12878_chr21.vcf.gz
-> NA12878_chr21.vcf.gz.tbi
-> PG_Conf_chr21.bed.gz
-> PG_Conf_chr21.bed.gz.tbi
-> PG_NA12878_chr21.vcf.gz
-> PG_NA12878_chr21.vcf.gz.tbi 
+- NA12878_chr21.vcf.gz
+- NA12878_chr21.vcf.gz.tbi
+- PG_Conf_chr21.bed.gz
+- PG_Conf_chr21.bed.gz.tbi
+- PG_NA12878_chr21.vcf.gz
+- PG_NA12878_chr21.vcf.gz.tbi 
 
 ## Notes for future development
 TODO Add second chromosome and reads to use as base for development of variant calling for each chromosome separately.
