@@ -1,2 +1,2 @@
 sample,variant_type,genome,bench_set,truth_set
-sample1,SHORT,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/bench.vcf,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/truth.vcf
+sample1,SHORT,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/PG_NA12878_chr21.vcf.gz
