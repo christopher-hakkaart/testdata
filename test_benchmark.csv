@@ -1,2 +1,3 @@
 sample,variant_type,genome,bench_set,truth_set,high_conf
 workflow1,SHORT,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/PG_NA12878_chr21.vcf.gz,
+workflow1,STRUCTURAL,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,,
