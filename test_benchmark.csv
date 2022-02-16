@@ -1,3 +1,5 @@
 sample,variant_type,genome,bench_set,truth_set,high_conf
-workflow1,SHORT,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/PG_NA12878_chr21.vcf.gz,
-workflow1,STRUCTURAL,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,,
+workflow0,SHORT,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,,
+workflow1,SHORT,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/chr21.fa,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/NA12878_chr21.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/PG_NA12878_chr21.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/PG_Conf_chr21.bed
+workflow2,STRUCTURAL,GRCh37,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/HG002_SVs_test_22.vcf.gz,,
+workflow3,STRUCTURAL,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/chr22.fa,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/HG002_SVs_test_22.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/HG002_SVs_Tier1_v0.6_22.vcf.gz,https://raw.githubusercontent.com/christopher-hakkaart/testdata/main/HG002_SVs_Tier1_v0.6_22.bed
