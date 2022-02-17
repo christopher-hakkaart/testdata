@@ -43,6 +43,8 @@ Copied data in [hap.py](https://github.com/Illumina/hap.py#happy) example.
 - PG_NA12878_chr21.vcf.gz.tbi 
 
 ## Notes for future development
-TODO Add second chromosome and reads to use as base for development of variant calling for each chromosome separately.
+TODO: Add second chromosome and reads to use as base for development of variant calling for each chromosome separately.
 
-TODO Fix error that occurs with default chromosome naming from bedtools – temporary solution is to arbitrarily name chromosome removing characters that were causing the problem.
+TODO: Fix error that occurs with default chromosome naming from bedtools – temporary solution is to arbitrarily name chromosome removing characters that were causing the problem.
+
+TODO: Add notes on how SV data were derived!
