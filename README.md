@@ -42,6 +42,11 @@ Copied data in [hap.py](https://github.com/Illumina/hap.py#happy) example.
 - PG_NA12878_chr21.vcf.gz
 - PG_NA12878_chr21.vcf.gz.tbi 
 
+## test_benchmark
+
+The test_benchmark?.csv files in this folder and are subject to change. 
+They are replicated dummy files to test functionality.
+
 ## Notes for future development
 TODO: Add second chromosome and reads to use as base for development of variant calling for each chromosome separately.
 
